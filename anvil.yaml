@@ -3,7 +3,8 @@ name: Clone of Disposable Email
 startup_form: Home
 correct_dependency_ids: {}
 renamed: true
-runtime_options: {version: 1, server_version: python2-sandbox, server_spec: null}
+runtime_options: {version: 2, server_version: python2-sandbox, server_spec: null,
+  client_version: '2'}
 dependencies: []
 services:
 - source: /runtime/services/anvil/email.yml

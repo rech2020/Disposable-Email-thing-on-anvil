@@ -1,3 +1,4 @@
+from ._anvil_designer import ItemTemplate1Template
 from anvil import *
 import anvil.server
 import tables

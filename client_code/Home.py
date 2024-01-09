@@ -1,3 +1,4 @@
+from ._anvil_designer import HomeTemplate
 from anvil import *
 import tables
 from tables import app_tables

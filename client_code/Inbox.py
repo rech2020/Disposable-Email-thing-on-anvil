@@ -1,3 +1,4 @@
+from ._anvil_designer import InboxTemplate
 from anvil import *
 import anvil.server
 import tables
