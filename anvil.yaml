@@ -8,8 +8,14 @@ services:
   client_config: {}
   server_config: {}
 package_name: Material_Design_1
-name: Clone of Disposable Email
-runtime_options: {version: 2, server_version: python2-full, server_spec: null, client_version: '2'}
+name: Disposable Email thing
+runtime_options:
+  version: 2
+  server_version: python3-sandbox
+  server_spec: null
+  client_version: '2'
+  server_spec_disabled: {requirements: '', base: python310-standard}
+metadata: {logo_img: 'asset:1178287917857263668.png'}
 startup_form: Home
 db_schema:
   messages:

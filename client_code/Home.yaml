@@ -28,7 +28,7 @@ components:
     event_bindings: {pressed_enter: address_box_pressed_enter}
   - type: Label
     properties: {role: input-prompt, align: left, border: '', foreground: '', visible: true,
-      text: '@disposable-email.anvilapp.net', font_size: null, font: '', spacing_above: small,
+      text: '@disposableemailthingy.anvil.app', font_size: null, font: '', spacing_above: small,
       icon_align: left, spacing_below: small, italic: false, background: '', bold: false,
       underline: false, icon: ''}
     name: label_2

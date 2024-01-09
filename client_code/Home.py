@@ -13,7 +13,7 @@ class Home (HomeTemplate):
 
   def button_1_click (self, **event_args):
     # This method is called when the button is clicked
-    open_form('Inbox', self.address_box.text + "@disposable-email.anvilapp.net")
+    open_form('Inbox', self.address_box.text + "@disposableemailthingy.anvil.app")
 
   def address_box_pressed_enter (self, **event_args):
     # This method is called when the user presses Enter in this text box
