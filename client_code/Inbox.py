@@ -11,7 +11,7 @@ class Inbox (InboxTemplate):
 
     # Any code you write here will run when the form opens.
     self.address = address
-    
+    self.address_label.text = address
     self.refresh()
     
   def refresh(self):
