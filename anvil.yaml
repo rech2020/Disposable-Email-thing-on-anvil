@@ -1,10 +1,4 @@
-package_name: Material_Design_1
-name: Clone of Disposable Email
-startup_form: Home
 correct_dependency_ids: {}
-renamed: true
-runtime_options: {version: 2, server_version: python2-sandbox, server_spec: null,
-  client_version: '2'}
 dependencies: []
 services:
 - source: /runtime/services/anvil/email.yml
@@ -13,3 +7,29 @@ services:
 - source: /runtime/services/tables.yml
   client_config: {}
   server_config: {}
+package_name: Material_Design_1
+name: Clone of Disposable Email
+runtime_options: {version: 2, server_version: python2-full, server_spec: null, client_version: '2'}
+startup_form: Home
+db_schema:
+  messages:
+    title: Messages
+    client: none
+    server: full
+    columns:
+    - name: from_address
+      admin_ui: {width: 200}
+      type: string
+    - name: to_address
+      admin_ui: {width: 200}
+      type: string
+    - name: subject
+      admin_ui: {width: 200}
+      type: string
+    - name: text
+      admin_ui: {width: 200}
+      type: string
+    - name: when
+      admin_ui: {width: 200}
+      type: datetime
+renamed: true
