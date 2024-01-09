@@ -1,0 +1,14 @@
+package_name: Material_Design_1
+name: Clone of Disposable Email
+startup_form: Home
+correct_dependency_ids: {}
+renamed: true
+runtime_options: {version: 1, server_version: python2-sandbox, server_spec: null}
+dependencies: []
+services:
+- source: /runtime/services/anvil/email.yml
+  client_config: {}
+  server_config: {}
+- source: /runtime/services/tables.yml
+  client_config: {}
+  server_config: {}
