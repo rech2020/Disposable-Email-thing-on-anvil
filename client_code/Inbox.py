@@ -28,4 +28,8 @@ class Inbox (InboxTemplate):
     # This method is called when the link is clicked
     open_form('Home')
 
+  def address_label_show(self, **event_args):
+    """This method is called when the Label is shown on the screen"""
+    pass
+
 
