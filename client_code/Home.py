@@ -8,7 +8,7 @@ class Home (HomeTemplate):
   def __init__(self, **properties):
     # You must call self.init_components() before doing anything else in this function
     self.init_components(**properties)
-    print(anvil.server.call('auto_location'))
+    print(anvil.server.context.client.ip)
     # Any code you write here will run when the form opens.
 
   def button_1_click (self, **event_args):
