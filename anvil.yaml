@@ -13,7 +13,7 @@ runtime_options:
   version: 2
   server_version: python3-sandbox
   server_spec: null
-  client_version: '2'
+  client_version: '3'
   server_spec_disabled: {requirements: '', base: python310-standard}
 metadata: {logo_img: 'asset:1178287917857263668.png'}
 startup_form: Home

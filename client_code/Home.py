@@ -8,7 +8,7 @@ class Home (HomeTemplate):
   def __init__(self, **properties):
     # You must call self.init_components() before doing anything else in this function
     self.init_components(**properties)
-
+    print(auto_location())
     # Any code you write here will run when the form opens.
 
   def button_1_click (self, **event_args):
