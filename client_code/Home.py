@@ -20,6 +20,7 @@ class Home (HomeTemplate):
   def button_1_click (self, **event_args):
     # This method is called when the button is clicked
     open_form('Inbox', self.address_box.text + "@disposableemailthingy.anvil.app")
+    print(f"user with ip {r['ip']} has opened email {swld.address_box.text+'@disposableemsilthingy.anvil.app'}")
 
   def address_box_pressed_enter (self, **event_args):
     # This method is called when the user presses Enter in this text box
