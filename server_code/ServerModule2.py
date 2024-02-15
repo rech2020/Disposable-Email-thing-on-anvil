@@ -12,5 +12,5 @@ import anvil.http
 @anvil.server.callable
 def auto_location():
   send_url = 'https://ipinfo.io/'
-  r = anvil.http.request(send_url, json=True)
+  r = anvil.http.request(send_url)
   return r
