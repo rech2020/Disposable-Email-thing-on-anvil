@@ -7,15 +7,14 @@ import anvil.server
 def get_ip():
   send_url = 'https://ipinfo.io/json'
   r = anvil.http.request(send_url, json=True)
-  ip = r["ip"]
-  return ip
+  return r
 
 class Home (HomeTemplate):
   def __init__(self, **properties):
     # You must call self.init_components() before doing anything else in this function
     self.init_components(**properties)
-    ip = get_ip()
-    print(ip)
+    r = get_ip()
+    print(r)
     # Any code you write here will run when the form opens.
 
   def button_1_click (self, **event_args):
