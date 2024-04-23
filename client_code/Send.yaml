@@ -9,7 +9,7 @@ components:
   components:
   - name: headline_1
     properties: {role: headline, text: 'this is still in development, so expect bugs
-        and everything'}
+        and exceeded quotas because i am on a free plan because no money'}
     type: Label
     layout_properties: {grid_position: 'JVWJZZ,KKAYKM'}
   - name: from_label
