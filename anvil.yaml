@@ -1,5 +1,8 @@
 correct_dependency_ids: {}
-dependencies: []
+dependencies:
+- dep_id: dep_1b0rket2wwri5g
+  version: {dev: false}
+  resolution_hints: {app_id: C6ZZPAPN4YYF5NVJ, name: Anvil Extras, package_name: anvil_extras}
 services:
 - source: /runtime/services/anvil/email.yml
   client_config: {}
@@ -38,4 +41,23 @@ db_schema:
     - name: when
       admin_ui: {width: 200}
       type: datetime
+    - name: attachements
+      admin_ui: {width: 200, order: 5}
+      type: link_multiple
+      target: attachements
+    - name: html
+      admin_ui: {order: 4.5, width: 200}
+      type: string
+  attachements:
+    client: none
+    server: full
+    columns:
+    - name: attachement
+      admin_ui: {width: 200, order: 0}
+      type: media
+    - name: message
+      admin_ui: {width: 200, order: 1}
+      type: link_single
+      target: messages
+    title: Attachements
 renamed: true

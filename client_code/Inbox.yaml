@@ -43,3 +43,7 @@ components:
   name: home_lnk
   layout_properties: {slot: top-left-btn}
   event_bindings: {click: home_lnk_click}
+- name: label_1
+  properties: {text: Inbox}
+  type: Label
+  layout_properties: {slot: title}

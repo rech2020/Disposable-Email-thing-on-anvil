@@ -32,6 +32,12 @@ components:
     layout_properties: {grid_position: 'SSNASP,WEAKMX'}
     data_bindings:
     - {property: text, code: 'self.item[''when''].strftime("%b %d, %Y")'}
+  - name: html_lbl
+    properties: {format: restricted_html}
+    type: RichText
+    layout_properties: {grid_position: 'LGCSOW,WPJXOK'}
+    data_bindings:
+    - {property: content, code: 'self.item[''html'']', writeback: false}
   - type: Label
     properties: {}
     name: text_lbl

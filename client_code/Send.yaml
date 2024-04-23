@@ -1,0 +1,22 @@
+container:
+  type: HtmlTemplate
+  properties: {html: '@theme:standard-page.html'}
+components:
+- type: ColumnPanel
+  properties: {}
+  name: content_panel
+  layout_properties: {slot: default}
+  components:
+  - name: headline_1
+    properties: {role: headline, text: 'this is still in development, so expect bugs
+        and everything'}
+    type: Label
+    layout_properties: {grid_position: 'JVWJZZ,KKAYKM'}
+- type: FlowPanel
+  properties: {}
+  name: navbar_links
+  layout_properties: {slot: nav-right}
+- name: label_1
+  properties: {text: Send page}
+  type: Label
+  layout_properties: {slot: title}
