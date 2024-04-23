@@ -36,7 +36,7 @@ def get_messages(address):
   return app_tables.messages.search(to_address=address)
 
 @anvil.server.callable
-def send_message(to_address,from_address,from_name,subject,html,attachements):
+def send_message(to_address,from_address,from_name,subject,html,attachements=None):
   anvil.email.send(
   to=to_address,
   from_address=from_address,

@@ -35,6 +35,10 @@ components:
     name: refresh_lnk
     layout_properties: {}
     event_bindings: {click: refresh_lnk_click}
+- name: label_1
+  properties: {text: Inbox}
+  type: Label
+  layout_properties: {slot: title}
 - type: Link
   properties: {role: null, align: left, border: '', foreground: '', visible: true,
     text: '', font_size: null, wrap_on: mobile, font: '', col_spacing: medium, spacing_above: small,
@@ -43,7 +47,3 @@ components:
   name: home_lnk
   layout_properties: {slot: top-left-btn}
   event_bindings: {click: home_lnk_click}
-- name: label_1
-  properties: {text: Inbox}
-  type: Label
-  layout_properties: {slot: title}
