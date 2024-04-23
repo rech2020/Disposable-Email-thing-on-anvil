@@ -42,7 +42,8 @@ components:
     layout_properties: {grid_position: 'WMFFUV,XIHYMM'}
     event_bindings: {click: button_1_click}
   - name: button_2
-    properties: {text: Send an email, role: primary-color}
+    properties: {text: Send an email (doesn't work because i am on a free plan), role: primary-color,
+      bold: false, italic: false, underline: false}
     type: Button
     layout_properties: {grid_position: 'WMFFUV,ULQANK'}
     event_bindings: {click: button_2_click}
